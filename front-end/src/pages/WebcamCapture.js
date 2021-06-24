@@ -50,7 +50,6 @@ const WebcamCapture = () => {
           .catch(err => console.log(err))
     };
   
-    
 
     return (
         <div className="webcam-container">
