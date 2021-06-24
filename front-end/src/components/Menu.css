@@ -1,0 +1,32 @@
+
+.menu_l {
+    text-decoration: none;
+    color: whitesmoke;
+    margin: 10px;
+  }
+  
+  .nav-bar{
+    display: flex;
+    background-color: #282c34;
+    padding: 8px 12px;
+    justify-content: center ;
+  }
+  
+  .menu {
+    display: flex;
+    margin: 30px;
+    list-style: none;
+    padding-left: 0;
+  }
+  
+  .menu li{
+    margin: 5px 10px;
+    font-size: 20px;
+    padding: 5px;
+  }
+  
+  .menu li:hover{
+    background-color: #1AAB8A;
+    border-radius: 4px;
+  }
+  

@@ -1,0 +1,131 @@
+.webcam-container
+{
+   display: flex;
+  justify-content: space-around;
+  padding: 1%;
+    padding-right: 100px;
+    padding-left: 100px;
+}
+
+.box-left
+{
+  margin: auto;
+  float: left;
+  padding: 20px;
+  border: 2px solid #000;
+}
+
+.box-right 
+{
+  margin: auto;
+  float: right;
+  padding: 20px;
+  border: 2px solid #000;
+}
+
+.webcam-img-left
+{
+  width: 400px;
+    height: 400px;
+    display: table;
+    vertical-align: middle;
+}
+
+.webcam-img-right
+{
+  display: table;
+    vertical-align: middle;
+    width: 400px;
+    height: 400px;
+}
+
+.webcam-btn
+{
+  font-family: sans-serif;
+  background:#1c7eda;
+  color:#fff;
+  border:none;
+  position:relative;
+  height:60px;
+  font-size:1.6em;
+  padding:5px 2em 10px 2em;
+  cursor:pointer;
+  transition:800ms ease all;
+  outline:none;
+  text-decoration: none;
+}
+.webcam-btn:hover
+{
+  
+  background:#fff;
+  color:#1c7eda;
+}
+.webcam-btn:before,.webcam-btn:after
+{
+  content:'';
+  position:absolute;
+  top:0;
+  right:0;
+  height:2px;
+  width:0;
+  background: #1c7eda;
+  transition:400ms ease all;
+}
+.webcam-btn:after
+{
+  right:inherit;
+  top:inherit;
+  left:0;
+  bottom:0;
+}
+.webcam-btn:hover:before, .webcam-btn:hover:after
+{
+  width:100%;
+  transition:800ms ease all;
+}
+
+
+.check-btn
+{
+  font-family: sans-serif;
+  background:#e23653;
+  color:#fff;
+  border:none;
+  position:relative;
+  height:60px;
+  font-size:1.6em;
+  padding:5px 2em 10px 2em;
+  cursor:pointer;
+  transition:800ms ease all;
+  outline:none;
+  text-decoration: none;
+}
+.check-btn:hover
+{
+  
+  background:#fff;
+  color:#e23653;
+}
+.check-btn:before,.check-btn:after
+{
+  content:'';
+  position:absolute;
+  top:0;
+  right:0;
+  height:2px;
+  width:0;
+  background: #e23653;
+  transition:400ms ease all;
+}
+.check-btn:after
+{
+  right:inherit;
+  top:inherit;
+  left:0;
+  bottom:0;
+}
+.check-btn:hover:before, .check-btn:hover:after
+{
+  width:100%;
+  transition:800ms ease all;
+}
