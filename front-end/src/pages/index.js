@@ -3,3 +3,4 @@ export { default as Login } from './Login.js';
 export { default as SignIn} from './SignIn.js';
 export { default as Camera } from './Camera.js';
 export { default as WebcamCapture} from './WebcamCapture';
+export { default as Result} from './Result';

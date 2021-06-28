@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { Route } from 'react-router-dom';
-import { Camera, Home, Login, SignIn, WebcamCapture } from '../pages';
+import { Camera, Home, Login, Result, SignIn, WebcamCapture } from '../pages';
 import { Menu } from '../components';
 
 class App extends Component {
@@ -13,6 +13,7 @@ class App extends Component {
                 <Route path="/SignIn" component={SignIn}/>
                 <Route path="/Camera" component={Camera}/>
                 <Route path="/WebcamCapture" component={WebcamCapture}/>
+                <Route path="/Result" component={Result}/>
             </div>
         );
     }

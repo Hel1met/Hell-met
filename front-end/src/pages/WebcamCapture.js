@@ -93,7 +93,7 @@ const WebcamCapture = () => {
                     <br></br>
                     <br></br>
                     
-                    <Link className="check-btn" to="./" onClick={handleUpload} >Check !</Link>
+                    <Link className="check-btn" to="./Result" onClick={handleUpload} >Check !</Link>
             </div>
         </div>
     );
