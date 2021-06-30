@@ -1,0 +1,121 @@
+.main_home{
+    text-align: center;
+    color: #1AAB8A
+  }
+  
+  .Result_box
+    {
+       display: flex;
+        justify-content: space-around;
+        padding: 1%;
+        padding-right: 100px;
+        padding-left: 100px;
+    }
+
+  .hell-met{
+    font-size: 80px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    font-family: sans-serif;
+  }
+  
+  .discribe{
+    font-size: 30px;
+    font-weight: 400;
+    margin-bottom: 50px;
+    font-family: sans-serif;
+  }
+
+
+  .start_button{
+    font-family: sans-serif;
+    background:#1AAB8A;
+    color:#fff;
+    border:none;
+    position:relative;
+    height:60px;
+    font-size:1.6em;
+    padding:5px 2em 10px 2em;
+    cursor:pointer;
+    transition:800ms ease all;
+    outline:none;
+    text-decoration: none;
+  }
+  .start_button:hover{
+    
+    background:#fff;
+    color:#1AAB8A;
+  }
+  .start_button:before,.start_button:after{
+    content:'';
+    position:absolute;
+    top:0;
+    right:0;
+    height:2px;
+    width:0;
+    background: #1AAB8A;
+    transition:400ms ease all;
+  }
+  .start_button:after{
+    right:inherit;
+    top:inherit;
+    left:0;
+    bottom:0;
+  }
+  .start_button:hover:before, .start_button:hover:after{
+    width:100%;
+    transition:800ms ease all;
+  }
+  
+
+  .camera_button{
+    font-family: sans-serif;
+    background:#1c7eda;
+    color:#fff;
+    border:none;
+    position:relative;
+    height:60px;
+    font-size:1.6em;
+    padding:5px 2em 10px 2em;
+    cursor:pointer;
+    transition:800ms ease all;
+    outline:none;
+    text-decoration: none;
+  }
+  .camera_button:hover{
+    
+    background:#fff;
+    color:#1c7eda;
+  }
+  .camera_button:before,.camera_button:after{
+    content:'';
+    position:absolute;
+    top:0;
+    right:0;
+    height:2px;
+    width:0;
+    background: #1c7eda;
+    transition:400ms ease all;
+  }
+  .camera_button:after{
+    right:inherit;
+    top:inherit;
+    left:0;
+    bottom:0;
+  }
+  .camera_button:hover:before, .camera_button:hover:after{
+    width:100%;
+    transition:800ms ease all;
+  }
+
+  .alert-box {
+    font-family: 'Montserrat';
+    display: flex;
+    justify-content: space-around;
+    padding: 50px;
+    width: 350px;
+    position: relative;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+  }

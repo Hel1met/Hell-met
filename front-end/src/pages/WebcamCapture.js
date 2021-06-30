@@ -3,6 +3,7 @@ import './WebcamCapture.css';
 import Webcam from "react-webcam"
 import { Link } from 'react-router-dom';
 import imglogo from './helmet_example1.png';
+import imglogo1 from './right_bee.png';
 import axios from "axios";
 
 const WebcamComponent = () => <Webcam />;
@@ -48,6 +49,8 @@ const WebcamCapture = () => {
             console.log(res.data);
           })
           .catch(err => console.log(err))
+
+         setTimeout("alert('결과확인을 눌러주세요!')", 1000);
     };
   
 
@@ -90,10 +93,13 @@ const WebcamCapture = () => {
                         width={500}
                         /> : <img src={image} />}
                     </div>
+                    <div>
+                        <button onClick = {handleUpload} className="check-btn">헬멧확인</button>
+                        <img src={imglogo1} width='77'></img>
+                        <Link className="check-btn" to="./Result">결과확인</Link>
+                    </div>
                     <br></br>
                     <br></br>
-                    
-                    <Link className="check-btn" to="./Result" onClick={handleUpload} >Check !</Link>
             </div>
         </div>
     );
