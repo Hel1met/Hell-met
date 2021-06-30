@@ -1,0 +1,78 @@
+.Timers {
+    width: 180px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  #display {
+    margin-bottom: 20px;
+  }
+  #display span {
+    font-size: 36px;
+  }
+  #buttons button:nth-child(2) {
+    margin-left: 8px;
+  }
+  
+  button {
+    font-size: 16px;
+    background-color: rgb(217, 60, 35);
+    color: #fff;
+    border-radius: 8px;
+    border: none;
+    padding: 6px 12px;
+    cursor: pointer;
+  }
+  button:hover {
+    background-color: rgb(173, 47, 28);
+  }
+  button:active {
+    background-color: rgb(130, 35, 21);
+  }
+  button:focus {
+    outline: 0;
+  }
+
+  .button1 {
+    font-family: sans-serif;
+   background:#1c7eda;
+   color:#fff;
+   border:none;
+   position:relative;
+   height:60px;
+   font-size:1.4em;
+   padding:5px 2em 10px 2em;
+   cursor:pointer;
+   transition:800ms ease all;
+   outline:none;
+   text-decoration: none;
+  }
+  .button1:hover
+   {
+      
+      background:#fff;
+      color:#1c7eda;
+   }
+   .button1:before,.button1:after
+   {
+      content:'';
+      position:absolute;
+      top:0;
+      right:0;
+      height:2px;
+      width:0;
+      background: #1c7eda;
+      transition:400ms ease all;
+   }
+   .button1:after
+   {
+      right:inherit;
+      top:inherit;
+      left:0;
+      bottom:0;
+   }
+   .button1:hover:before, .button1:hover:after
+   {
+      width:100%;
+      transition:800ms ease all;
+   }

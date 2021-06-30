@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { Route } from 'react-router-dom';
-import { Camera, Home, Login, Result, SignIn, WebcamCapture } from '../pages';
+import { Home, Login, Result, SignIn, StopWatch, WebcamCapture } from '../pages';
 import { Menu } from '../components';
 
 class App extends Component {
@@ -11,9 +11,9 @@ class App extends Component {
                 <Route exact path="/" component={Home}/>
                 <Route path="/Login" component={Login}/>
                 <Route path="/SignIn" component={SignIn}/>
-                <Route path="/Camera" component={Camera}/>
                 <Route path="/WebcamCapture" component={WebcamCapture}/>
                 <Route path="/Result" component={Result}/>
+                <Route path="/StopWatch" component={StopWatch}/>
             </div>
         );
     }
