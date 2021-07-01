@@ -44,4 +44,4 @@
 
 - Slack
 - Notion (https://www.notion.so/SW-Design-Doc-Team-D-e675ba454b8448f3a4f046f1460942d1)
-- Flagly (https:www.flagly.org/courses/303/)
+- Flagly (https://www.flagly.org/courses/303/)
