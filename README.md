@@ -30,7 +30,7 @@
 
 ----------------------
 
-## Tech Stack
+# Tech Stack
 ![(16)](https://user-images.githubusercontent.com/83197138/124066826-51e5ac80-da74-11eb-85dc-88a0878ba468.png)
 
 ### **AI**
