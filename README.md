@@ -1,10 +1,10 @@
 # Members
 
-- 오해찬
+- 오해찬 https://github.com/HaechanOH
 - 이상민 https://github.com/sangminlee98
 - 양혜인 https://github.com/happynow7
-- 한수빈
-- 허서윤
+- 한수빈 https://github.com/Subin
+- 허서윤https://github.com/seoyoon130
 
 ---------------------
 
