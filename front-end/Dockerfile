@@ -6,3 +6,5 @@ RUN npm install
 #RUN npm install -g serve
 CMD ["npm", "run", "build"]
 #ENTRYPOINT ["serve", "-s", "build"]
+LABEL key="Name"
+LABEL key="Version"

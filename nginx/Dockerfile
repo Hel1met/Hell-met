@@ -12,3 +12,6 @@ RUN mkdir ${APP_ROOT}
 WORKDIR ${APP_ROOT}
 
 ADD /app/ ${APP_ROOT}
+
+LABEL key="Name"
+LABEL key="Version"
