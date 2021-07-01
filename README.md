@@ -1,8 +1,8 @@
 # Members
 
 - 오해찬
-- 이상민
-- 양혜인
+- 이상민 https://github.com/sangminlee98
+- 양혜인 https://github.com/happynow7
 - 한수빈
 - 허서윤
 
