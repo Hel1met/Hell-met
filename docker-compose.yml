@@ -1,12 +1,12 @@
 version: "3"
 
 services:
-  django/back-end:
+  back-end:
     build: ./django/back-end
     container_name: django-gunicorn
     restart: always
     env_file:
-      - django.env
+      - ./django.env
     ports:
       - "8000:8000"
     command:
@@ -19,10 +19,10 @@ services:
       - "80:80"
     volumes:
       - ./nginx:/etc/nginx/conf.d
-      #추가? - ./front-end/build:/var/www/front-end
+      - ./front-end/build:/var/www/front-end
     depends_on:
-      #추가? - front-end
-      - django/back-end
+      # - ./front-end
+      - back-end
 
   #수정필요
   front-end:

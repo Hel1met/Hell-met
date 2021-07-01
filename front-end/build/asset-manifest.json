@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/static/css/main.acf4b186.chunk.css",
+    "main.js": "/static/js/main.826a1c1f.chunk.js",
+    "main.js.map": "/static/js/main.826a1c1f.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.9ed01013.js",
+    "runtime-main.js.map": "/static/js/runtime-main.9ed01013.js.map",
+    "static/js/2.658f4beb.chunk.js": "/static/js/2.658f4beb.chunk.js",
+    "static/js/2.658f4beb.chunk.js.map": "/static/js/2.658f4beb.chunk.js.map",
+    "static/js/3.c074a9bd.chunk.js": "/static/js/3.c074a9bd.chunk.js",
+    "static/js/3.c074a9bd.chunk.js.map": "/static/js/3.c074a9bd.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.acf4b186.chunk.css.map": "/static/css/main.acf4b186.chunk.css.map",
+    "static/js/2.658f4beb.chunk.js.LICENSE.txt": "/static/js/2.658f4beb.chunk.js.LICENSE.txt",
+    "static/media/helmet_example1.b2c80312.png": "/static/media/helmet_example1.b2c80312.png",
+    "static/media/helmet_icon.07724731.png": "/static/media/helmet_icon.07724731.png",
+    "static/media/right_bee.8c842131.png": "/static/media/right_bee.8c842131.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.9ed01013.js",
+    "static/js/2.658f4beb.chunk.js",
+    "static/css/main.acf4b186.chunk.css",
+    "static/js/main.826a1c1f.chunk.js"
+  ]
+}
