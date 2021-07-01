@@ -11,6 +11,12 @@
 - 양혜인 (https://github.com/happynow7)
 - 한수빈 (https://github.com/hansb1023)
 - 허서윤 (https://github.com/seoyoon130)
+---
+
+# Preview
+
+![23](https://user-images.githubusercontent.com/83197138/124090990-55872c80-da90-11eb-9ac4-dbe6db955b1a.jpg)
+
 
 ---------------------
 
